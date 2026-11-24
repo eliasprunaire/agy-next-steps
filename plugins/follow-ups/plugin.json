@@ -2,6 +2,8 @@
   "name": "follow-ups",
   "displayName": "Follow-Ups",
   "version": "0.2.0",
+  "author": "eliasprunaire",
+  "repository": "https://github.com/eliasprunaire/agy-next-steps",
   "logo": "assets/logo.svg",
   "description": "Propose en fin de réponse 1 à 3 suites concrètes, numérotées et combinables (1+2, 1,3), avec mise en avant du choix recommandé et rendu Markdown propre sur Antigravity CLI et Antigravity IDE."
 }

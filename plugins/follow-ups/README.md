@@ -8,17 +8,18 @@ Plugin natif KISS (sans MCP ni hook) qui propose en fin de réponse 1 à 3 suite
 - `assets/logo.svg` : icône SVG `128x128`.
 - `rules/AGENTS.md` : règle toujours active tant que le plugin est activé.
 
-## Validation et installation locale
+## Installation
 
-Valider le plugin :
+Depuis GitHub :
+
+```bash
+agy plugin install https://github.com/eliasprunaire/agy-next-steps/tree/main/plugins/follow-ups
+```
+
+Depuis un clone local :
 
 ```bash
 agy plugin validate --strict ./plugins/follow-ups
-```
-
-Installer le plugin dans Antigravity (CLI, App et IDE partagent `~/.gemini/config/plugins/`) :
-
-```bash
 agy plugin install ./plugins/follow-ups
 ```
 
